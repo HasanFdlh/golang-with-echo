@@ -1,0 +1,80 @@
+2025/09/22 11:12:50 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:12:51 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:12:51 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:12:51 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:12:51 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:12:51 main.go:65: 🚀 Server running on port 8080
+2025/09/22 11:13:08 127.0.0.1:64325 GET /users 2.8386ms
+2025/09/22 11:13:56 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:13:56 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:13:56 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:13:56 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:13:56 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:13:56 main.go:65: 🚀 Server running on port 8080
+2025/09/22 11:14:28 127.0.0.1:55931 GET /users 1.6327ms
+2025/09/22 11:14:33 127.0.0.1:55931 GET /users/1 1.9523ms
+2025/09/22 11:14:46 127.0.0.1:55931 DELETE /users/1 9.9667ms
+2025/09/22 11:16:11 127.0.0.1:55965 POST /users 649.8µs
+2025/09/22 11:17:27 127.0.0.1:49688 POST /users 8.0181ms
+2025/09/22 11:18:00 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:18:00 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:18:00 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:18:00 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:18:00 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:18:00 main.go:65: 🚀 Server running on port 8080
+2025/09/22 11:18:17 127.0.0.1:51098 POST /users 648.5µs
+2025/09/22 11:18:22 127.0.0.1:51098 POST /users 0s
+2025/09/22 11:20:45 127.0.0.1:63452 POST /users 0s
+2025/09/22 11:20:50 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:20:50 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:20:50 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:20:50 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:20:50 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:20:50 main.go:65: 🚀 Server running on port 8080
+2025/09/22 11:21:03 127.0.0.1:62054 POST /users 0s
+2025/09/22 11:24:08 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:24:08 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:24:08 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:24:08 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:24:08 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:24:08 main.go:66: 🚀 Server running on port 8080
+2025/09/22 11:24:22 127.0.0.1:63441 POST /users 505.9µs
+2025/09/22 11:24:32 127.0.0.1:63441 POST /users 0s
+2025/09/22 11:25:30 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:25:30 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:25:30 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:25:30 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:25:30 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:25:30 main.go:66: 🚀 Server running on port 8080
+2025/09/22 11:25:45 127.0.0.1:64130 POST /users 547.3µs
+2025/09/22 11:25:50 127.0.0.1:64130 POST /users 506.1µs
+2025/09/22 11:26:50 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:26:50 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:26:50 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:26:50 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:26:50 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:26:50 main.go:66: 🚀 Server running on port 8080
+2025/09/22 11:27:06 127.0.0.1:64159 POST /users 10.3107ms
+2025/09/22 11:27:09 127.0.0.1:64159 GET /users 1.1463ms
+2025/09/22 11:27:28 127.0.0.1:64159 GET /users/1 1.7821ms
+2025/09/22 11:27:58 127.0.0.1:64159 PUT /users/1 2.3059ms
+2025/09/22 11:28:01 127.0.0.1:64159 PUT /users/1 8.4079ms
+2025/09/22 11:28:04 127.0.0.1:64159 GET /users 507.1µs
+2025/09/22 11:28:21 127.0.0.1:64159 PUT /users/1 8.5873ms
+2025/09/22 11:28:25 127.0.0.1:64159 PUT /users/1 1.0509ms
+2025/09/22 11:30:43 logger.go:33: [SYSTEM] Logger initialized, writing to logs\2025-09-22.log
+2025/09/22 11:30:43 migration.go:17: [SYSTEM] Migration completed
+2025/09/22 11:30:43 redis.go:27: [SYSTEM] Redis connected
+2025/09/22 11:30:43 minio.go:29: [SYSTEM] MinIO connected
+2025/09/22 11:30:43 minio.go:45: [SYSTEM] Bucket pari-corporate-dev already exists
+2025/09/22 11:30:43 main.go:66: 🚀 Server running on port 8080
+2025/09/22 11:31:05 127.0.0.1:53515 PUT /users/1 3.038ms
+2025/09/22 11:31:08 127.0.0.1:53515 PUT /users/1 10.4349ms
+2025/09/22 11:31:13 127.0.0.1:53515 PUT /users/1 8.3506ms
+2025/09/22 11:31:16 127.0.0.1:53515 PUT /users/1 1.2567ms
+2025/09/22 11:31:18 127.0.0.1:53515 PUT /users/1 7.3487ms
+2025/09/22 11:31:22 127.0.0.1:53515 PUT /users/1 8.7829ms
+2025/09/22 11:31:50 127.0.0.1:53515 DELETE /users 0s
+2025/09/22 11:32:15 127.0.0.1:53515 GET /users 1.035ms
+2025/09/22 11:32:38 127.0.0.1:53515 DELETE /users/1 3.3954ms
+2025/09/22 11:32:42 127.0.0.1:53515 GET /users 506.2µs
