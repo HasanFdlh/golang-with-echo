@@ -8,13 +8,11 @@ import (
 	"ms-golang-echo/internal/repository"
 	"ms-golang-echo/internal/usecase"
 	"ms-golang-echo/routes"
-	"net/http"
 	"os"
-
-	emw "ms-golang-echo/internal/middleware"
 
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 func main() {
@@ -40,16 +38,8 @@ func main() {
 	e := echo.New()
 	config.InitValidator(e)
 
-	e.Use(func(next echo.HandlerFunc) echo.HandlerFunc {
-		return func(c echo.Context) error {
-			emw.RequestLogger(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-				c.SetRequest(r)
-				c.Response().Writer = w
-				next(c)
-			})).ServeHTTP(c.Response().Writer, c.Request())
-			return nil
-		}
-	})
+	e.Use(middleware.CORS())
+
 	e.GET("/ping", func(c echo.Context) error {
 		return config.Success(c, "pong")
 	})
